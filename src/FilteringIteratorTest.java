@@ -28,9 +28,7 @@ public class FilteringIteratorTest {
 		assertTrue(fi.next().equals(3));
 		assertTrue(fi.next().equals(5));
 		assertTrue(fi.next().equals(3));
-		assertFalse(fi.hasNext());
-		
-		
+		assertFalse(fi.hasNext());	
 	}
 	
 	@Test
